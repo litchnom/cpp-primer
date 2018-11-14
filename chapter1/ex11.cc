@@ -5,12 +5,6 @@ int main()
     std::cout << "Please enter two numbers: " << std::endl;
     std::cin >> val1 >> val2;
 
-    while(val1 < val2) // while loop to count up from  val1  to  val2
-    {
-        std::cout << val1 << std::endl;
-        ++val1;
-    }
-
     while(val1 >= val2) // while loop to count down from  val1  to  val2
     {
         std::cout << val1 << std::endl;

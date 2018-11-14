@@ -2,11 +2,11 @@
 int main()
 {
     int sum = 0;
-    for(int i = -100; i <= 100; ++i)
+    for (int i = -100; i <= 100; ++i)
         sum += i;
 
     int val = -100;
-    while(val <= 100)
+    while (val <= 100)
     {
         sum += val;
         ++val;
