@@ -6,8 +6,7 @@ int main()
         sum += i;
 
     int val = -100;
-    while (val <= 100)
-    {
+    while (val <= 100) {
         sum += val;
         ++val;
     }

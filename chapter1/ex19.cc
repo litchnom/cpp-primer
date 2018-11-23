@@ -7,16 +7,12 @@ int main()
 
     if (val1 <= val2)
     {
-        while(val1 <= val2) // while loop to count up from  val1  to  val2
-        {
+        while(val1 <= val2) {   // while loop to count up from  val1  to  val2
             std::cout << val1 << std::endl;
             ++val1;
         }
-    }
-    else
-    {
-        while(val1 >= val2) // while loop to count down from  val1  to  val2
-        {
+    } else {
+        while(val1 >= val2) {   // while loop to count down from  val1  to  val2
             std::cout << val1 << std::endl;
             --val1;
         }
